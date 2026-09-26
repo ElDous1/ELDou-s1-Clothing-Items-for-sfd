@@ -58,6 +58,6 @@ Usually a good option as it opens automatically sprites in numerical order. it d
 > Due to some how this app works. It will always open sfd png images on indexed mode. rembember to change it to rgb color mode. otherwise you wont be able to add colors.
 
 > [!TIP]
-> You can bind a key to set to rgb color mode in the top bar: `Edit>KeyboardSHortcuts>Menus` Search for "rgb" then `Sprite > Color Mode > RGB` option should appear. bind whatever key you want. i recommend space + R
+> You can bind a key to set images to rgb color mode in the top bar: `Edit>KeyboardSHortcuts>Menus` Search for "rgb" then `Sprite > Color Mode > RGB` option should appear. bind whatever key you want. i recommend space + R
 > - You can use [this palette](https://www.mediafire.com/file/ac3gbxg06co6ufn/SFDPALETTE-Colourables_1.ase/file) i created for sfd items.
 
