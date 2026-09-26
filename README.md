@@ -5,9 +5,13 @@ items i made, both their decompiled png versions and .item versions.
 programs used on the making of these items.
 
 ## Important
+### SFDItemTool
+By Liokindy
 To import and export .item files:
 [MediaFire](https://www.mediafire.com/file/9waf2g6eohm0bjj/SFDItemTool-win64.7z/file) **64 bits windows .exe**
+
 [Mega](https://mega.nz/file/CpB1WIaI#SQ1PgtvzsJEt_qJS265H-odml0udWTXoM3Vg_VIMCgk) **64 bits windows .exe**
+
 Sadly the creator retired it from github. so for now have a mega and mediafire links.
 *Setup.*
 1. open the .exe, ***it will NOT*** open a program but its necessary so it creates folders on %AppData%
