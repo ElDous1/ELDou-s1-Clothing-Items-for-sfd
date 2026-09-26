@@ -7,7 +7,9 @@ programs used on the making of these items.
 ## Important
 ### SFDItemTool
 By Liokindy
+
 To import and export .item files:
+
 [MediaFire](https://www.mediafire.com/file/9waf2g6eohm0bjj/SFDItemTool-win64.7z/file) **64 bits windows .exe**
 
 [Mega](https://mega.nz/file/CpB1WIaI#SQ1PgtvzsJEt_qJS265H-odml0udWTXoM3Vg_VIMCgk) **64 bits windows .exe**
