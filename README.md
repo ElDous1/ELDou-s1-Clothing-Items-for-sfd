@@ -15,7 +15,9 @@ To import and export .item files:
 [Mega](https://mega.nz/file/CpB1WIaI#SQ1PgtvzsJEt_qJS265H-odml0udWTXoM3Vg_VIMCgk) **64 bits windows .exe**
 
 Sadly the creator retired it from github. so for now have a mega and mediafire links.
-*Setup.*
+
+##### Setup.
+
 1. open the .exe, ***it will NOT*** open a program but its necessary so it creates folders on %AppData%
 2. the shortcut "SFDItemTool-save-directory" is where the input and output folders will be. otherwise go to `C:\Users\%USERNAME%\AppData\Roaming\SFDItemTool`
 This is what the .bat files do:
@@ -31,10 +33,14 @@ This is what the .bat files do:
 ## Optional
 
 ### AnimViewer
+By Liokindy
+
 To view animations while being able to modify them in real time:
 https://github.com/Liokindy/AnimViewer
 
 ### Vercel app Item editor 
+By NearHuscarl
+
 > [!WARNING]
 > Since years it hasn't been working to make items. But its good for visualizing items.
 
