@@ -38,6 +38,8 @@ By Liokindy
 To view animations while being able to modify them in real time:
 https://github.com/Liokindy/AnimViewer
 
+---
+
 ### Vercel app Item editor 
 By NearHuscarl
 
@@ -46,6 +48,8 @@ By NearHuscarl
 
 In case you don't know what part belongs to what, or want to quickly test something
 https://superfighters.vercel.app/item
+
+---
 
 ### LibreSprite
 
