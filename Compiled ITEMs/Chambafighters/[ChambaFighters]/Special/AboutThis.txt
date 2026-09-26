@@ -1,0 +1,8 @@
+These "Special" are items in the Hurt slot
+Cant be equipped normally but can probablyyyy be used by scripters for their scripts
+They arent very worked because no scripter has tested them
+
+The item ID is their file name
+
+CHFVoid is the one that doesnt go into hurt slot. it goes into skin instead
+its a empty skin, only usable with scripts or map editor
