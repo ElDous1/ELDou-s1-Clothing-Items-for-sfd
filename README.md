@@ -14,12 +14,18 @@ To import and export .item files:
 
 [Mega](https://mega.nz/file/CpB1WIaI#SQ1PgtvzsJEt_qJS265H-odml0udWTXoM3Vg_VIMCgk) **64 bits windows .exe**
 
-Sadly the creator retired it from github. so for now have a mega and mediafire links.
+Sadly the creator retired it from github. So for now have a mega and mediafire links.
 
+<details>
+<summary> Click here for a short setup guide </summary>
+  
 ### Setup.
 
-1. open `SFDItemTool.exe`, ***it will NOT*** open a program but its necessary so it creates folders on %AppData%
-2. the shortcut "SFDItemTool-save-directory" is where the `input` and `output` folders will be. otherwise go to `C:\Users\%USERNAME%\AppData\Roaming\SFDItemTool`
+1. Open `SFDItemTool.exe` ***it will NOT*** open a program but it's necessary so it creates folders on %AppData%
+2. The shortcut "SFDItemTool-save-directory" is where the `input` and `output` folders will be. Or you can manually go to `C:\Users\%USERNAME%\AppData\Roaming\SFDItemTool`
+3. You put the `.item` files or `.png` folders in the `input` folder depending on what youre going to do. 
+4. See below to know what the .bat do
+
 This is what the `.bat` files do:
 
 | .Bat file | Function | Other Notes |
@@ -28,7 +34,12 @@ This is what the `.bat` files do:
 | SFDItemTool-item | Import `.png` folders into `.item` | |
 | SFDItemTool-pass | Compress old `.item` files more | Not necessary anymore. |
 
-`SFDItemTool-pass` used to compress `.item` more. But at some point between 1.4 to 1.4.2 development. the compression was implemented officially.
+`SFDItemTool-pass` used to compress `.item` more. But at some point between 1.4 to 1.4.2 development. the compression was implemented officially
+
+</details
+  
+> [!TIP]
+>  Go extract first a .item from sfd so you can look at how the formatting is. you can find official sfd items in the root folder at `Superfighters Deluxe\Content\Data\Items`
 
 ## Optional
 
