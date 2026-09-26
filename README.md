@@ -19,6 +19,7 @@ This is what the .bat files do:
 | SFDItemTool-folder | Export `.item` into `.png` folders | |
 | SFDItemTool-item | Import `.png` folders into `.item` | |
 | SFDItemTool-pass | Compress old `.item` files more | Not necessary anymore. |
+
 `SFDItemTool-pass` used to compress `.item` more but at some point between 1.4 to 1.4.2 development. the compression was implemented officially.
 
 ## Optional
