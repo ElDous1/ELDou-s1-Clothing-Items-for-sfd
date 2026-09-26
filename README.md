@@ -16,7 +16,7 @@ To import and export .item files:
 
 Sadly the creator retired it from github. so for now have a mega and mediafire links.
 
-##### Setup.
+### Setup.
 
 1. open `SFDItemTool.exe`, ***it will NOT*** open a program but its necessary so it creates folders on %AppData%
 2. the shortcut "SFDItemTool-save-directory" is where the `input` and `output` folders will be. otherwise go to `C:\Users\%USERNAME%\AppData\Roaming\SFDItemTool`
