@@ -1,5 +1,5 @@
 
-items i made. Both their decompiled .png versions and .item versions.
+items i made for superfighters deluxe. Both their decompiled .png versions and .item versions.
 
 Compiled versions are ordered as they would be when put on "Items" folder of sfd
 
