@@ -1,0 +1,206 @@
+Format: i usually refer to numbers when a very specific sprite has something wrong, example 1_0 which is part of the idle animation of the torso
+  This format comes from the tool from liokindy; "DeluxeBench" im using that format as its the only public tool to extract and import items
+  Also used libresprite to draw all that.
+  Sometimes i refer "1_x" when i refer to every sprite, as in: every torso sprite.
+This is which number is what part:
+	0_x is the head
+	1_x is the torso
+	2_x is the arms
+	3_x is the hands
+	4_x is the legs
+	5_x is the tail; only used on Coat
+This text file will go in order according to the layer number.
+
+# - In general
+
+-Some include "swings" sprites some other don´t.
+    idk why but i mantained it as it came in the sprites, i want to know why because afaik swing is always on top of everything even if it comes only from the skin layer
+    To be exact: its the 3_9, 3_11 and 3_12 sprites.
+-Most clothes that cover the torso dont have an original roll sprite, i didnt "fix" it as isn´t as straightfoward fix like the rest.
+    i might do it some other time in a separated pack as they requiere more though.
+
+0 - Skin is all the way down as there isnt very important notes there.
+
+1 - chest under
+
+-On 1_x (Mostly on male) they for some reason have outlines that overlap wit ones on Normal skins; Those were removed as they dont really change anything, this is more for custom skin packs that use skinnier skins.
+-Women usually miss 1 or 2 pixels in some torso sprites. men too but seems to be rarer on men. (usually on 1_3 and 1_8 on women)
+	So far:
+	HawaiShirt
+	LeatherJacket (black and normal)
+	LumberJack shirt (long and short variants)
+	MilitaryShirt
+	PoliceShirt
+	Shirt
+	ShirtWithBowtie
+	ShirtWithTie
+	SleevelessShirt (normal and black)
+	StuddedLeatherSuit
+	Sweater (and black)
+	TrainingShirt
+	Tshirt
+-Most male shirts (long sleeved) miss the entire sleeve on 2_11 and 2_12 and instead use a straight line thats incosistent with the skin
+-Some inconsistencies fixed:
+	LeatherJacket Roll sprite had the wrong palette, fixed to be darker like the rest
+	MilitaryShirt; The shoulder thingy disapears in some sprites, now should appear on most.
+	PoliceShirt_fem (shading inconsistency) & The yellow part of the torso can be seen without the black line, so it now includes the black part. (1_2, 1_3)
+	ShirtWithBowTIe has long sleeves in some sprites even though its supposed to be short sleeved
+	Sweater has an inconsistent neck. compare it to the female version. theres no 0_x on female and in male theres no neck on 1_x (happens on black too, on black the female has no neck)
+	TrainingShirt: 1_4 and 1_5 (back torso sprites) arent finished on male, fixing this because on female its actually detailed; On female 1_2 and 1_3 arent shaded at all
+	TShirt has a neck on 1_3 on male even though the rest doesnt
+2 - Legs
+
+No problems it seems. Good job!
+
+
+3 - Waist
+
+-Added some missing pixels on outlines as belt can be over some jackets
+	So far:
+	Ammobelt (male)
+	Belt and _fem
+	SmallBelt_fem
+-CombatBelt_fem: 1_1 cuts a part of the belt, fixed that.
+-SatchelBelt_fem: a gray pixel on 1_3 doesnt make much sense to be there, removed it.
+
+4 - Feet
+
+-RidingBoots (normal & black):
+   have the "star" on the boot instead aside the boot on 4_13 and 4_14
+   It also misses from some sprites
+-Sneakers:
+   Missing the other colourable pixel in some sprites. (4_4 and 4_5)
+   4_4 has the other colourable pixel wrong in the feet.
+
+
+5 - ChestOver
+
+Once again mostly inconsistency:
+-Ammobelt: Added the roll sprite.
+   fixed 1_2 and 1_3 as it looked more like a scarf lol, inspired from the one in female.
+-Apron: made the male be more like the female; less covered neck and more defined 1_2 and 1_3.
+   now the male has a roll sprite. The female has some missing pixels (1_1)		
+	Note: i dont know if its really intended but the top part be exposed on female but not on male, might look into it, i left it as it is.
+-AviatorJacket: There isnt much to fix.
+   added a few black pixels for a stronger silouhette.
+   and i made the "fur" be more visible on 1_2 and 1_3.
+-BlazerWithShirt: Outlines on male half-removed. 
+   Some inconsitencies on male compared to female fixed. 1_2 1_4 and 1_5 have no detail at all so fixed. 
+   Also once again pixels missing on female. Some black pixels added for stronger silouhette
+-Coat: not much there really. 
+   Just adjusted 1_3 so the torso is slightly visible like 1_2
+-Coat_Black: same as the normal coat. 
+   2_6 on male has missing pixels on the wrist.
+-GrenadeBelt: On female made it separated like male, Why? So its better for combinations of items, PoliceShirt + Grenadebelt for example.
+   i dont know if it was intended, but on 1_2 and 1_3 of female it does not use the white pixel like on male.
+-Jacket: Same treatment as the coat. Not much to fix there really. good job.
+-JacketBlack: Once again missing the wrist on 2_6 on male. Same treatment as the coat.
+-KevlarVest: Just added a few missing outlines on front and 1_1.
+-MetrolawJacket: Just added a few black pixels for stronger silouhette. 
+   Added the "button" on the arm to some more arm sprites.
+-MilitaryJacket: Same treatment as jacket and coat.
+-OfficerJacket: No errors on torso.
+   The arms had the outlines removed (except the pixel that modifies the silouhette) this is so clothes like studdedleathersuit can be visible.
+   The female version was made more like the male version on 1_2 and 1_3.
+   Also missing pixels on female lololol. 
+   Added the green thingy of the arm to more sprites of the female arm.
+-Poncho: No errors at all. i only fixed the back sprite thats unused. Great Job!!!!!!!!! even better job as this one has an original roll sprite!!11!!!!
+-Poncho2: Just made it be under belts instead of the other way around, as belts arent almost visible.
+   But no errors on the sprite itself. good job.
+-Robe: robe has a weird addition on the roll sprite on male, removed as it isnt on female.
+   The legs sprites of male were copied to female as the ones in female are 1:1 copy of skirt; for originality on the item basically.
+-ShoulderHolster: No errors it seems; Good job!
+-StripedSuitJacket: Same as officerjacket.
+-StudddedJacket: Fixed 1_0 and 1_1 being very different.
+   Once again got a similar treatment as jacket and coat.
+   2_6 missing pixels on the wrist.
+-StuddedVest: Same treatment as coat.
+-SuitJacket: DO NOTE that this is literally the same thing as the Officer Jacket, with only 1 pixel being different; The best fix would be to remove this and make the officer jacket the suitjacket, but thats kinda hard now because of custom maps. OR give this one the secondary colors as the officerjacket, so anyways: 
+   i made same fixes as officerjacket.
+-Suspenders: No changes, Good job on this one!
+-Vest: Simply some missing pixels added. same treatment as coat.
+-Vest_black: Same as vest.
+
+6 - Accessory
+
+-Armband: No changes, its incomplete.
+  must be intended so i might complete it on another pack of improvements that arent just fixing missing pixels
+-Balaclava: Only the back sprite fixed, removed the dark pixels.
+-DogTag: Just made a female variant as the last sprite looks bad on female
+-GasMask: Simply made it have motion on 0_2.
+-Mask: the jump sprite had only 1 shade and didnt have neck, so fixed that.
+-Moustache: Does not have 0_3 even though it has enough pixels to be visible there.
+-Scarf: Nothing but its funny to look at 3_8 which seems to be a beta version of scarf, as 3_8 is used on nothing lolololol
+-SmallMoustche: Sprite added to some that didnt have it.
+
+This is a minority of accesories, decent job here i guess ,':*
+
+
+7 - Hands
+
+-FingerlessGLoves (and black variant): You could have moved the hands one pixel above in the ladders animations and wouldnt need to create the 2_11 and 2_12
+  but becaue of this animation mistake i decided to fix this by making the female version; in the normal version the 2_12 isnt correctly placed on female.
+-Gloves (and black variant): Same treatment as fingerlessgloves.
+
+Guess thats more of a animation fix suggestion than a sprite fix suggestion.
+
+
+8 - HEADDDDDD
+
+-AviatorHat: fixed a few Missing outlines, and the front & back sprite a bit undetailed.
+-AviatorHat2: Made them all more like 1_0.
+  Back sprite didnt even look like an aviator hat???? i mean its pretty hard so i tried to make it look more like it
+-Baseballcap: It seems its supposed to have a line connected to the T face, connected that in more sprites.
+-Beret: simply made the rest of sprites like 1_0; the back one has to look like it because of item recognition, otherwise the vanilla one looks more like hair.
+  0_4 (the jump sprite) had the beret moved 1 pixel up so the face is visible; for combination of accessories like glasses.
+-BucketHat: simply moved it a pixel up on 0_4 (jumping sprite) as the T face isnt visible.
+-CheftHat: Same treatment as BucketHat
+-CowboyHat: Same treatment as buckethat
+-Fedora: TReatment as buckethat. For some reason 0_5 is a bit shorter than the rest, so i made it like the rest.
+-Fedora2: Same treatment as Fedora
+-FedoraBlack: This one is weird; from 0_0 to 0_3 its supposed to be rounded, from 0_4 to 0_7 its supposed to be squarish, and on 0_8 its rounded but taller; Not sure what to do, so i made it similar to the normal fedora.
+-GeneralHat: Same treatment as bucketHat although this time edited the sprite slighly.
+-GermanHelmet: Edited the 0_4 slighly, improved front and back sprite of the head (0_6 and 0_7)
+-HazmatHelmet: Same as GermanHelmet
+-Helmet: Same as GermanHelmet.
+-Hood: Same as GermanHelmet. Although, 0_9 moved a pixel just so it looks better on female.
+-MetroLawMask: Moved som pixels on 0_! and 0_7
+-PithHelmet: Same treatment as BucketHat
+-RiceHat: Same treatment as BucketHat
+-SantaHat: Some sprites had squarish corners even though most didnt, fixed that
+  The tail was missing in some.
+  The white pixel were also missing.
+-SargeantHat: Same treatment as BucketHat.
+-Sombrero:Same treatment as buckethat. Although, this time moved a pixel down on 0_5
+-Sombrero2: i just removed the outlines on 0_6 as they didnt make much sense i think? they're not elsewhere.
+-SpikedHelmet: Done same things as GermanHelmet.
+-StylishHat: Same treatment as BucketHat..
+-TopHat: Same treatment as BucketHat.
+-WoolCap: Same treatment as...guess which one....incorrect! i think....wait no...yes correct...AS THE BUCKET...HAT!!!
+
+
+9 - Hurt
+
+Nothing to fix really, this truly a proof that superfighters are meatbags!!!!
+
+
+0 - Skin (its below everything else as its not as important, more like a note to myself than anything. as the actual fixes are on the file for skin.)
+
+Changes to skin are in a different text file BUT i have this complaint:
+-Normal_fem: My biggest complain, is that 1_9 could have easily have the chest moved to the right like in male.
+    this way we could have not needed to make _fem for accesories that cover the torso, and it would also have looked good for showing motion.
+    you can try to see how good it would have looked right now on https://superfighters.vercel.app/item
+    just do something like this:
+	https://cdn.discordapp.com/attachments/966386962535702578/1486729398324563988/image.png?ex=69c69026&is=69c53ea6&hm=26a9023b3085a8d0d93732577ff141f61e51d0f64c054d354a48cc0420d3f115
+    Saying this as its a problem on items like dog tag and hood. and any future items to be made in the future, specially saying this because it doesnt look bad to have the boobs like in that image, it really shows movement.
+    Its not really that hard to do, yes has to be done like 80~ times for the items that cover the torso, its repetitive but not hard work, i might do it, its only pressing the M key and moving the sprite on libresprite
+	Its been left here as it affects more other clothes in the long term than being a mistake within the skin itself
+
+These are some notes i realized while fixing clothes, i fixed clothes first before skins:
+-might have to look into "shading" problems
+-look into female legs on normal skin.
+-Normal male: Apparently a pixel is miscolored
+ one of the neck of the torso is always covered by black on clothing, even though its supposed to be visible neck (1_1)
+
+
+Well thats pretty much everything i could think of "fixing"
