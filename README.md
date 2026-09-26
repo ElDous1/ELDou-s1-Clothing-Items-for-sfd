@@ -50,7 +50,9 @@ https://superfighters.vercel.app/item
 ### LibreSprite
 
 [Web Page](https://libresprite.github.io/#!/)
+
 [Github](https://github.com/LibreSprite/LibreSprite)
+
 Usually a good option as it opens automatically sprites in numerical order. it doesnt add pixels that sfd would hate to read.
 > [!IMPORTANT]
 > Due to some how this app works. It will always open sfd png images on indexed mode. rembember to change it to rgb color mode. otherwise you wont be able to add colors.
