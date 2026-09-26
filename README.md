@@ -33,7 +33,7 @@ https://github.com/Liokindy/AnimViewer
 In case you don't know what part belongs to what, or want to quickly test something
 https://superfighters.vercel.app/item
 
-#### LibreSprite
+#### [LibreSprite](https://libresprite.github.io/#!/)
 
 
 Usually a good option as it opens automatically sprites in numerical order. it doesnt add pixels that sfd would hate to read.
@@ -42,5 +42,5 @@ Usually a good option as it opens automatically sprites in numerical order. it d
 
 > [!TIP]
 > You can bind a key to set to rgb color mode in the top bar: `Edit>KeyboardSHortcuts>Menus` Search for "rgb" then `Sprite > Color Mode > RGB` option should appear. bind whatever key you want. i recommend space + R
-> You can use [this palette](https://www.mediafire.com/file/ac3gbxg06co6ufn/SFDPALETTE-Colourables_1.ase/file) i created for sfd items.
+> - You can use [this palette](https://www.mediafire.com/file/ac3gbxg06co6ufn/SFDPALETTE-Colourables_1.ase/file) i created for sfd items.
 
