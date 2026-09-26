@@ -1,9 +1,9 @@
 
 items i made for superfighters deluxe. Both their decompiled .png versions and .item versions.
 
-Compiled versions are ordered as they would be when put on "Items" folder of sfd
+Compiled versions are on [releases](https://github.com/ElDous1/ELDou-s1-Clothing-Items-for-sfd/releases) and are ordered as they would be when put on "Items" folder of sfd
 
-Decompiled versions are ordered by layer in the code as it was more comfortable for me.
+Decompiled versions are ordered by layer in the code as it was more comfortable for me. they are above on the "code"
 
 # Included packs
 
