@@ -36,10 +36,10 @@ This is what the `.bat` files do:
 
 `SFDItemTool-pass` used to compress `.item` more. But at some point between 1.4 to 1.4.2 development. the compression was implemented officially
 
-</details
-  
+</details>
+
 > [!TIP]
->  Go extract first a .item from sfd so you can look at how the formatting is. you can find official sfd items in the root folder at `Superfighters Deluxe\Content\Data\Items`
+>  Go extract first an .item from sfd so you can look at how the formatting is. you can find official sfd items in the root folder at `Superfighters Deluxe\Content\Data\Items`
 
 ## Optional
 
