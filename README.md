@@ -1,5 +1,24 @@
 
-items i made, both their decompiled png versions and .item versions.
+items i made. Both their decompiled .png versions and .item versions.
+
+Compiled versions are ordered as they would be when put on "Items" folder of sfd
+
+Decompiled versions are ordered by layer in the code as it was more comfortable for me.
+
+# Included packs
+
+- [Chambafighters](https://www.moddb.com/games/superfighters-deluxe/addons/chambafighters)
+  
+![ssss](https://media.moddb.com/images/downloads/1/266/265364/chf.jpg "CHF thumbnail")
+
+- [Gore Improvement](https://www.moddb.com/games/superfighters-deluxe/addons/gore-improvement-by-eldous12)
+
+![gore improv](https://media.moddb.com/images/downloads/1/317/316623/gorepic.PNG "gore improv")
+
+- Fixes for official clothes
+  - Not posted anywhere else as it is not polished enough.
+- Le Noir pour Officiele
+  - W.i.p
 
 # Used programs
 programs used on the making of these items.
